@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  background: #f9fdfe;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-black {
+  background-color: #191411;
+}
+
+.bg-white {
+  background-color: #f9fdfe;
+}
+
+.text-black {
+  color: #191411;
+}
+
+.text-white {
+  color: #f9fdfe;
+}
+
+h1 {
+  font-family: var(--font-robotoserif);
+  font-weight: 500;
+}
+
+h2 {
+  font-family: var(--font-robotoserif);
+  font-weight: 300;
+}
+
+h3 {
+  font-family: var(--font-robotoserif);
+  font-weight: 100;
+}
+
+* {
+  font-family: var(--font-inter);
+}
