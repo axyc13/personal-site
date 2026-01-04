@@ -4,6 +4,8 @@ import React from "react";
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { TbBrandLinktree } from "react-icons/tb";
+import { SiGmail } from "react-icons/si";
+
 import bg from "@/public/bg.gif";
 
 export default function Hero() {
@@ -20,6 +22,9 @@ export default function Hero() {
         </h1>
         <p>Portfolio under construction</p>
         <div className="flex flex-row gap-8">
+          <Link target="_blank" href="mailto:axyc13@gmail.com">
+            <SiGmail className="w-8 h-8" />
+          </Link>
           <Link target="_blank" href="https://www.linkedin.com/in/andrew-chen1">
             <SiLinkedin className="w-8 h-8" />
           </Link>

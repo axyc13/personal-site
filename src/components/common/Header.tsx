@@ -4,7 +4,7 @@ import React from "react";
 export default function Header() {
   return (
     <footer className="relative z-10 w-screen h-auto flex flex-row justify-end items-center py-8 px-16">
-      <nav className="flex flex-row gap-8 ">
+      <nav className="flex flex-row gap-8">
         <Link href="/" className="text-gray-500 hover:underline">
           Tech
         </Link>
